@@ -4,7 +4,7 @@ import numpy
 import os
 import csv
 
-def get_models(config_file='../config/models_config.csv'):
+def get_models(config_file='./config/models_config.csv'):
     if not config_file.endswith('.csv'):
         print('!Error: models config file must be *.csv, but it is {}'.format(config_file))
         return
